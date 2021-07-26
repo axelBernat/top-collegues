@@ -4,13 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href https://axelBernat.github.io/top-collegues/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build": "ng build --prod --base-href https://axelBernat.github.io/top-collegues/"
+    "e2e": "ng e2e"
   },
-
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.6",
